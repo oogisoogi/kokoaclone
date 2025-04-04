@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>Kokoa Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <header>
+        <h1>Creat An Account</h1>
+    </header>
+
+    <form>
+        <p>
+            <lavel for="first-name">First Name</lavel>
+            <input id="first-Name" required placeholder="First Name" type="text" />
+        </p>
+        <p>
+            <lavel for="last-name">Last Name</lavel>
+            <input id="last-name" required placeholder="Last Name" type="text" />
+        </p>
+        <p>
+            <lavel for="email">Email</lavel>
+            <input id="email" required placeholder="Email" type="email" />
+        </p>
+        <p>
+            <lavel for="user-name">User Name</lavel>
+            <input id="user-name" required placeholder="User Name" type="text" />
+        </p>
+        <p>
+            <lavel for="password">Password</lavel>
+            <input id="password" required placeholder="Password" type="password" minlength="10" />
+        </p>
+        <p>
+            <lavel for="birth-day">Birth Day</lavel>
+            <input id="birth-day" required type="date" />
+        </p>
+        <p>
+            <lavel for="happy-range">How happy are you?</lavel>
+            <input id="happy-range" required type="range" list="markers" />
+
+            <datalist id="markers">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+            </datalist>
+        </p>
+        <p>
+            <lavel for="fv-color">What is your favorite color?</lavel>
+            <input id="fv-color" required type="color" />
+        </p>
+        <p>
+            <input required type="submit" value="Creat Account" />
+        </p>
+    </form>
+</body>
+
+</html>
